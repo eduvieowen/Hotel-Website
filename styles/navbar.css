@@ -1,0 +1,34 @@
+
+/* Navbar Styling */
+
+.logo {
+    padding: 0;
+}
+#navbar {
+    background: peachpuff;
+    overflow: auto;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 10px;
+}
+#navbar .logo a:hover {
+    color: palevioletred;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 12px;
+    text-align: center;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background: darkslategray;
+    color: palevioletred;
+}

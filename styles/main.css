@@ -1,0 +1,130 @@
+
+/* Header Styling */
+#showcase {
+    background: url('../media/hotel_entrance.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+/* Main and Aside Content Styling */
+#homeContent {
+    height: 400px;
+}
+#homeContent .home-img {
+    float: left;
+    width: 50%;
+    background: url('../media/reception.jpg') no-repeat;
+    min-height: 100%;
+}
+#homeContent .home-text {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#homeContent .home-text p {
+    padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 40px;
+    text-align: center;
+}
+.box i {
+    margin-bottom: 10px;
+}
+
+/* About Info */
+#aboutInfo .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#aboutInfo .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#aboutInfo .info-right img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 10%;
+}
+/* Testimonials */
+#testimonials {
+    height: 600px;
+    background: url('../media/hotel_guests.jpg') no-repeat center center/cover;
+    padding-top: 70px;
+}
+#testimonials h2 {
+    color: palevioletred;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 14px;
+    background-color: darkslategray;
+    border-radius: 10px;
+} 
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+#testimonials .testimonial img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Contact Form */
+#contactForm .form-grp {
+    margin-bottom: 20px;
+}
+#contactForm label {
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 5px;
+}
+#contactForm input, #contactForm textarea {
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+#contactForm textarea {
+    height: 200px;
+}
+#contactForm input:focus, #contactForm textarea:focus {
+    outline: 2px solid palevioletred;
+    /* border: 2px solid black; */
+}
+
+/* Coantact Info */
+#contactInfo p {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Footer */
+#main-footer {
+    border-top: 2px solid whitesmoke;
+    text-align: center;
+    padding: 8px;
+}
